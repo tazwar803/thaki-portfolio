@@ -76,7 +76,7 @@ function App() {
             <div className="portrait-frame">
               <img
                 className="portrait"
-                src="/images/profile.jpg"
+                src={`${import.meta.env.BASE_URL}images/profile.jpg`}
                 alt="Portrait of MD Thaki Tazwar Al Rahman"
               />
             </div>
@@ -150,7 +150,7 @@ function App() {
               <div className="project-image-wrap">
                 <img
                   className="project-image"
-                  src="/images/coin-toss-game.jpg"
+                  src={`${import.meta.env.BASE_URL}images/coin-toss-game.jpg`}
                   alt="Screenshot of the Coin Toss Game with Heads and Tails choices"
                 />
                 <span className="project-image-label">PROJECT 001</span>
@@ -193,7 +193,7 @@ function App() {
               <p className="education-description">The Aid · Completed with Grade A+.</p>
               <a
                 className="certificate-link"
-                href="/images/web-development-certificate.jpeg"
+                href={`${import.meta.env.BASE_URL}images/web-development-certificate.jpeg`}
                 target="_blank"
                 rel="noreferrer"
               >
