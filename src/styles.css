@@ -1,18 +1,18 @@
 :root {
   font-family: "DM Sans", sans-serif;
-  color: #152231;
-  background: #f5f1e9;
+  color: midnightblue;
+  background: floralwhite;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-optical-sizing: auto;
   font-weight: 400;
-  --ink: #152231;
-  --muted: #66706f;
-  --paper: #f5f1e9;
-  --paper-dark: #ece6dc;
-  --orange: #d96d3d;
+  --ink: midnightblue;
+  --muted: dimgray;
+  --paper: floralwhite;
+  --paper-dark: antiquewhite;
+  --orange: chocolate;
   --line: rgba(21, 34, 49, 0.14);
   --heading-font: "Manrope", sans-serif;
 }
@@ -110,7 +110,7 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   gap: 34px;
-  color: #4f585b;
+  color: darkslategray;
   font-size: 12px;
   font-weight: 600;
 }
@@ -184,7 +184,7 @@ textarea:focus-visible {
   align-items: center;
   gap: 9px;
   margin: 0 0 26px;
-  color: #68706d;
+  color: dimgray;
 }
 
 .eyebrow-dot,
@@ -228,7 +228,7 @@ h1 > span,
 .hero-description {
   max-width: 470px;
   margin-bottom: 28px;
-  color: #606969;
+  color: dimgray;
   font-size: 14px;
   line-height: 1.9;
 }
@@ -260,15 +260,15 @@ h1 > span,
 
 .button--dark {
   background: var(--ink);
-  color: #fff;
+  color: white;
 }
 
 .button--dark:hover {
-  background: #26394d;
+  background: midnightblue;
 }
 
 .text-link {
-  color: #53605e;
+  color: darkslategray;
   font-size: 11px;
   font-weight: 600;
   transition: color 160ms ease;
@@ -283,7 +283,7 @@ h1 > span,
   align-items: center;
   gap: 11px;
   margin-top: 64px;
-  color: #818782;
+  color: slategray;
   font-size: 10px;
 }
 
@@ -311,7 +311,7 @@ h1 > span,
   padding: 9px;
   border: 1px solid rgba(21, 34, 49, 0.14);
   border-radius: 50%;
-  background: #fffdf8;
+  background: floralwhite;
   box-shadow: 0 24px 58px rgba(29, 38, 43, 0.12);
 }
 
@@ -331,9 +331,9 @@ h1 > span,
   padding: 12px 15px;
   border: 1px solid rgba(21, 34, 49, 0.1);
   border-radius: 24px;
-  background: #fffdf8;
+  background: floralwhite;
   box-shadow: 0 9px 25px rgba(28, 34, 35, 0.08);
-  color: #505b5c;
+  color: darkslategray;
   font-size: 10px;
   white-space: nowrap;
 }
@@ -350,7 +350,7 @@ h1 > span,
   display: flex;
   align-items: center;
   gap: 11px;
-  color: #7b827d;
+  color: slategray;
   font-size: 9px;
 }
 
@@ -362,7 +362,7 @@ h1 > span,
 
 .intro-band {
   padding-block: 104px;
-  background: #eae4d9;
+  background: antiquewhite;
 }
 
 .intro-grid {
@@ -373,7 +373,7 @@ h1 > span,
 
 .section-kicker {
   margin: 6px 0 0;
-  color: #7b827d;
+  color: slategray;
 }
 
 .intro-content h2,
@@ -387,14 +387,14 @@ h1 > span,
 }
 
 .intro-content h2 span {
-  color: #8a918c;
+  color: slategray;
 }
 
 .intro-content > p,
 .section-subtitle {
   max-width: 590px;
   margin-bottom: 0;
-  color: #65706d;
+  color: dimgray;
   font-size: 13px;
   line-height: 1.9;
 }
@@ -414,7 +414,7 @@ h1 > span,
 }
 
 .fact-label {
-  color: #858b84;
+  color: slategray;
   font-size: 9px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -467,12 +467,12 @@ h1 > span,
 }
 
 .skill-card:hover {
-  background: #eee8dd;
+  background: antiquewhite;
 }
 
 .skill-index {
   margin-bottom: 10px;
-  color: #92968f;
+  color: darkgray;
   font-size: 9px;
   letter-spacing: 0.1em;
 }
@@ -496,7 +496,7 @@ h1 > span,
   align-items: center;
   gap: 9px;
   margin: 17px 0 0;
-  color: #757d77;
+  color: slategray;
   font-size: 10px;
 }
 
@@ -507,7 +507,7 @@ h1 > span,
 
 .work-section {
   padding-block: 100px 110px;
-  background: #eae4d9;
+  background: antiquewhite;
 }
 
 .section-heading--work {
@@ -520,7 +520,7 @@ h1 > span,
   overflow: hidden;
   border: 1px solid rgba(21, 34, 49, 0.08);
   border-radius: 5px;
-  background: #f8f5ef;
+  background: floralwhite;
   box-shadow: 0 16px 42px rgba(37, 39, 36, 0.06);
 }
 
@@ -531,14 +531,14 @@ h1 > span,
   place-items: center;
   overflow: hidden;
   padding: 38px;
-  background: #dbe4f1;
+  background: lightsteelblue;
 }
 
 .project-image {
   display: block;
   width: min(100%, 440px);
   max-height: 290px;
-  border: 7px solid #fff;
+  border: 7px solid white;
   object-fit: contain;
   box-shadow: 0 12px 32px rgba(25, 43, 70, 0.16);
   transition: transform 300ms ease;
@@ -552,7 +552,7 @@ h1 > span,
   position: absolute;
   bottom: 17px;
   left: 20px;
-  color: #52606f;
+  color: slategray;
   font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -570,7 +570,7 @@ h1 > span,
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  color: #92968f;
+  color: darkgray;
   font-size: 8px;
 }
 
@@ -584,7 +584,7 @@ h1 > span,
 .project-details > p {
   max-width: 390px;
   margin-bottom: 25px;
-  color: #68716e;
+  color: dimgray;
   font-size: 13px;
   line-height: 1.95;
 }
@@ -619,7 +619,7 @@ h1 > span,
 
 .education-type {
   margin: 0 0 26px;
-  color: #90958f;
+  color: darkgray;
   font-size: 8px;
 }
 
@@ -632,7 +632,7 @@ h1 > span,
 
 .education-description {
   margin-bottom: 19px;
-  color: #6c7470;
+  color: dimgray;
   font-size: 11px;
 }
 
@@ -641,7 +641,7 @@ h1 > span,
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: #646d68;
+  color: dimgray;
   font-size: 10px;
   font-weight: 600;
 }
@@ -662,7 +662,7 @@ h1 > span,
 .contact-section {
   padding-block: 93px;
   background: var(--ink);
-  color: #f5f1e9;
+  color: floralwhite;
 }
 
 .contact-grid {
@@ -674,7 +674,7 @@ h1 > span,
 
 .contact-copy .section-kicker {
   margin: 5px 0 26px;
-  color: #adb5b5;
+  color: lightgray;
 }
 
 .contact-copy h2 {
@@ -684,7 +684,7 @@ h1 > span,
 
 .contact-copy > p:not(.section-kicker) {
   max-width: 390px;
-  color: #b3bcbd;
+  color: lightgray;
   font-size: 12px;
   line-height: 1.8;
 }
@@ -699,7 +699,7 @@ h1 > span,
 }
 
 .contact-card-label {
-  color: #aeb9b8;
+  color: lightgray;
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -710,14 +710,14 @@ h1 > span,
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  color: #f5f1e9;
+  color: floralwhite;
   font-size: clamp(13px, 1.5vw, 17px);
   font-weight: 600;
   overflow-wrap: anywhere;
 }
 
 .contact-email:hover {
-  color: #f0a17d;
+  color: lightsalmon;
 }
 
 .contact-card-rule {
@@ -731,7 +731,7 @@ h1 > span,
   align-items: center;
   gap: 9px;
   margin: 0;
-  color: #c7cdca;
+  color: lightgray;
   font-size: 10px;
 }
 
@@ -741,8 +741,8 @@ h1 > span,
 }
 
 .site-footer {
-  background: #101b27;
-  color: #bcc4c2;
+  background: midnightblue;
+  color: lightgray;
 }
 
 .footer-inner {
@@ -755,17 +755,17 @@ h1 > span,
 
 .brand--footer .brand-mark {
   border-color: rgba(245, 241, 233, 0.55);
-  color: #f5f1e9;
+  color: floralwhite;
 }
 
 .brand--footer .brand-name {
-  color: #f5f1e9;
+  color: floralwhite;
 }
 
 .footer-inner > p,
 .back-top {
   margin: 0;
-  color: #aab4b2;
+  color: lightgray;
   font-size: 9px;
 }
 
